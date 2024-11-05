@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Product Details | Ecommerce Theme 03 </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- jquery Ui -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+
+    <!-- Zoom -->
+    <link rel="stylesheet" href="css/xzoom.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <section class="top_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 grid_left">
+                    <p>shop events & save up to <span>65% off!</span></p>
+                    <p>call us: <span>001-1234-88888</span></p>
+                </div>
+                <div class="col-md-6 grid_right">
+                    <ul class="shop_list">
+                        <!--<li>
+                            <a href="#">
+                                <i class="fa fa-heart-o"></i>
+                                <span>0</span>
+                            </a>
+                        </li>-->
+                        <li>
+                            <a href="javascript:void(0)" class="cart_toggle">
+                                <i class="flaticon-shopping-cart-1"></i>
+                                <span>0</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="cart_box">
+                        <ul class="cart_list">
+                            <li>
+                                <a href="#">
+                                    <img src="images/cart_1.jpg" alt="">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p><i class="fa fa-rupee"></i>239</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/cart_2.jpg" alt="">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p><i class="fa fa-rupee"></i> 239</p>
+                                </a>
+                            </li>
+                            <div class="text-center">
+                                <a href="cart.html" class="btn btn_cart">view cart</a>
+                            </div>
+                        </ul>
+                    </div>
+                    <ul class="login_list">
+                        <li><a href="login.html"><i class="flaticon-login"></i> login</a></li>
+                        <li><a href="signup.html"><i class="flaticon-paper-plane"></i> register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- Menu -->
+	<nav class="navbar navbar-expand-md c_menu">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.png" alt="">
+			</a>
+			<div class="search search_m">
+                <input type="text" class="form-control" placeholder="Search For Product">
+                <button class="search_btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my_nav" aria-controls="my_nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="my_nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">about</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="product.html">products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">contact</a>
+					</li>
+				</ul>
+				<div class="search">
+                    <input type="text" class="form-control" placeholder="Search For Product">
+                    <button class="search_btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+			</div>
+		</div>
+	</nav>
+	<!-- Inner Banner -->
+	<section class="inner_banner" style="background-image:url(images/slider2.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>Product details</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Breadcrumb -->
+	<section class="brdcum">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">product</a></li>
+						<li class="breadcrumb-item active">product details</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Product Details -->
+	<section class="product_details">
+		<section class="section_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 grid_left">
+                        <div class="xzoom-container">
+                            <img class="xzoom" id="xzoom-default" src="images/product_zoom/preview/1.jpg" xoriginal="images/product_zoom/original/1.jpg" />
+                            <div class="xzoom-thumbs">
+                                <a href="images/product_zoom/original/1.jpg">
+                                    <img class="xzoom-gallery" width="80" src="images/product_zoom/thumb/1.jpg"  xpreview="images/product_zoom/preview/1.jpg" title="The description goes here">
+                                </a>
+                                <a href="images/product_zoom/original/2.jpg">
+                                    <img class="xzoom-gallery" width="80" src="images/product_zoom/preview/2.jpg" title="The description goes here">
+                                </a>
+                                <a href="images/product_zoom/original/3.jpg">
+                                    <img class="xzoom-gallery" width="80" src="images/product_zoom/preview/3.jpg" title="The description goes here">
+                                </a>
+                                <a href="images/product_zoom/original/4.jpg">
+                                    <img class="xzoom-gallery" width="80" src="images/product_zoom/preview/4.jpg" title="The description goes here">
+                                </a>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="col-md-7 grid_right">
+                        <ul class="product_f_link">
+                            <li>
+                                <a href="#">automobiles</a>
+                            </li>
+                            <li>
+                                <a href="#">cars</a>
+                            </li>
+                            <li>
+                                <a href="#">antique</a>
+                            </li>
+                            <li>
+                                <a href="#">aston martin</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">demo</a>
+                            </li>
+                        </ul>
+                        <h3 class="product_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos modi repellat corporis obcaecati facilis excepturi perspiciatis expedita velit, dolores consectetur, odit architecto provident itaque porro id iure at facere ullam.</p>
+                        <p class="price">
+                            <span class="new_p">$220.00</span>
+                            <span class="old_p">$250.00</span>
+                        </p>
+                        <p class="stock">
+                            <span class="stock_in">In Stock</span>
+                            <span class="product_id">SKU: TMW-26</span>
+                        </p>
+                        <hr>
+                        <form id="c_qty" method="post" action="#">
+                            <input type="text" name="quantity" value="0" class="qty" />
+                            <input type="button" value="-" class="qty_m" field="quantity" />
+                            <input type="button" value="+" class="qty_p" field="quantity" />
+                        </form>
+                        <a href="#" class="btn btn_1"><i class="flaticon-shopping-cart"></i>add to cart</a>
+                        <div class="full_des">
+                            <h3 class="des_head">Description</h3>
+                            <p>Record smoother, clearer videos—even when you’re on the move. Steady Record 2.0 analyzes each frame to provide smoother playback of your video recordings.</p>
+                            <p>Capture higher quality audio with your video recordings with 3 High AOP mics to record clean, lossless audio that matches the quality of your video.</p>
+                            <ul>
+                                <li>Create Store-specific attrittbutes on the fly</li>
+                                <li>Simple, Configurable (e.g. size, color, etc.), Bundled</li>
+                                <li>Downloadable/Digital Products, Virtual Products</li>
+                            </ul>
+                            <p>Enjoy premium audio through wired headphones or speakers for a crisper, fuller playback experience.With a 135-degree perspective, the LG V20™ dual rear cameras give you more flexibility than ever to capture the perfect shot.</p>
+                            <p>Get more of every moment with Dual Rear Cameras. Featuring a 16 MP Standard-Angle Lens camera (75 degrees, 1/2.8″ image sensor, f/1.8 low light) and 8 MP Wide-Angle Lens (135 degrees, 1/4″ image sensor, f/2.4 low light) camera.</p>
+                        </div>
+                        <div class="infor">
+                            <h3 class="des_head">Additional information</h3>
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>color</td>
+                                        <td>
+                                            <a href="#">Grey,</a>
+                                            <a href="#">Yellow</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
+	</section>
+	<!-- Footer -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col_contact links">
+                        <h3>Contact us</h3>
+                        <ul class="address">
+                            <li>
+                                <div class="ci_icon">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>Address:</span>
+                                </div>
+                                <div class="ci_content">
+                                    My Company, 42 Puffin street 12345 Puffinville France
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ci_icon">
+                                    <i class="fa fa-phone"></i>
+                                    <span>Phone:</span>
+                                </div>
+                                <div class="ci_content">
+                                    0123-456-789
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ci_icon">
+                                    <i class="fa fa-envelope"></i>
+                                    <span>Email:</span>
+                                </div>
+                                <div class="ci_content">
+                                    <a href="mailto:ecommerce@yoursite.com" target="_blank">ecommerce@yoursite.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="social">
+                            <li class="fb">
+                                <a class="fa fa-facebook" href="#" target="_blank"></a>
+                            </li>
+                            <li class="tw">
+                                <a class="fa fa-twitter" href="#" target="_blank"></a>
+                            </li>
+                            <li class="gp">
+                                <a class="fa fa-google-plus" href="#" target="_blank"></a>
+                            </li>
+                            <li class="pin">
+                                <a class="fa fa-pinterest" href="#" target="_blank"></a>
+                            </li>
+                            <li class="vim">
+                                <a class="fa fa-vimeo" href="#" target="_blank"></a>
+                            </li>
+                            <li class="ins">
+                                <a class="fa fa-instagram" href="#" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 links bullet">
+                        <h3>Categories</h3>
+                        <ul class="quick_ul">
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Smartphones</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Smartphones</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Accessories</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Cameras</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Computers</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Old Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 links bullet">
+                        <h3>Information</h3>
+                        <ul class="quick_ul">
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Specials</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>New products</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Best sellers</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Our stores</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 links bullet">
+                        <h3>MY ACCOUNT</h3>
+                        <ul class="quick_ul">
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>My orders</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>My credit slips</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>My addresses</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>My personal info</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Software</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Laptops</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 links bullet">
+                        <h3>EXTRAS</h3>
+                        <ul class="quick_ul">
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>About Store</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>New Collections</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Latest News</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>Our Sitemap</a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa fa-angle-right"></i>About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_center">
+            <div class="container">
+                <div class="footer_email">
+                    <div class="left_block">
+                        <p class="p1">NEED HELP? CALL OUR NOW</p>
+                        <p class="p2">SUPPORT TEAM 24/7 AT 0123 - 456 - 789</p>
+                    </div>
+                    <div class="right_block">
+                        <form action="?0" method="post">
+                            <div class="input_wrapper">
+                                <input name="email" placeholder="Enter your email" type="text" value="">
+                            </div>
+                            <button class="btn btn_3" name="submitNewsletter" type="submit">Subscribe</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_address col-xs-12 col-sm-12 col-md-7">
+                        <p>© 2018 Ecommerce. All Rights Reserved. Designed by <a href="#">Webarbiter</a></p>
+                    </div>
+                    <div class="footer_bottom_img col-xs-12 col-sm-12 col-md-5">
+                        <img alt="" src="images/payment.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Min -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Jquery Ui -->
+    <script src="js/jquery-ui.min.js"></script>
+
+    <!-- Zoom -->
+    <script src="js/xzoom.min.js"></script>
+
+    <!-- Google map API -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&.js"></script>
+    <script src="js/map.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- Custom -->
+    <script src="js/custom.js"></script>
+</body>
+</html>

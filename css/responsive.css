@@ -1,0 +1,396 @@
+/* ------------------------ 
+    Max Width 1366px 
+------------------------ */
+@media (max-width: 1366px) {
+
+}
+/* ------------------------ 
+    Max Width 1280px 
+------------------------ */
+@media (max-width: 1280px) {
+
+}
+/* ------------------------ 
+    Max Width 1080px 
+------------------------ */
+@media (max-width: 1080px) {
+
+}
+/* ------------------------ 
+    Max Width 1024px 
+------------------------ */
+@media (max-width: 1024px) {
+.inner_product .grid_left .widget .widget_body.size_l .custom-control {
+    width: 50%;
+}
+.product.inner_product .cus_col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+/* ------------------------ 
+    Min Width 1000px 
+------------------------ */
+@media (min-width: 1000px) {
+
+}
+/* ------------------------ 
+    Max Width 966px 
+------------------------ */
+@media (max-width: 966px) {
+.banner #banner_slider .item .caption {
+    top:25%;
+    width:50%;
+    left:25%;
+}
+.add_banner .cus_col .grid .caption {
+    top:10%;
+}
+.iconic .cus_col {
+    padding: 0;
+}
+.product .cus_col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+.footer .footer_top .col_contact.links {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.footer .footer_top .links {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+.footer .footer_center .footer_email {
+    padding:20px;
+}
+.product.inner_product .cus_col {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.account_form.login .grid_left {
+    padding: 100px 50px;
+}
+}
+/* ------------------------ 
+    Max Width 853px 
+------------------------ */
+@media (max-width: 853px) {
+.account_form .grid_left {
+    padding:100px 50px;
+}
+.account_form .grid_right {
+    padding: 50px;
+}
+.account_form .grid_right .btn_sec .help_a {
+    display: block;
+    margin-top:10px;
+    margin-left:0px;
+}
+}
+/* ------------------------ 
+    Max Width 800px 
+------------------------ */
+@media (max-width: 800px) {
+
+}
+/* ------------------------ 
+    Min Width 769px 
+------------------------ */
+@media (min-width: 768px) {
+.search_m {
+    display: none;
+}
+}
+/* ------------------------ 
+    Max Width 768px 
+------------------------ */
+@media (max-width: 768px) {
+
+}
+/* ------------------------ 
+    Max Width 736px 
+------------------------ */
+@media (max-width: 736px) {
+.heading_1 {
+    font-size:32px;
+    line-height:32px;
+}
+.top_bar .grid_left {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.top_bar .grid_right {
+    text-align: center;
+}
+.search {
+    display: none;
+}
+.search_m {
+    display: inline-block !important;
+}
+.add_banner {
+    padding: 40px 0px 20px 0px;
+}
+.add_banner .row {
+    justify-content:center;
+}
+.add_banner .cus_col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom:20px;
+}
+.iconic .cus_col {
+    padding: 0px 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+.iconic {
+    padding: 30px 0px 10px 0px;
+}
+.product {
+    padding: 40px 0px;
+}
+.product .cus_col {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.footer {
+    padding-top:40px;
+}
+.footer .footer_top h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer .footer_center .footer_email .left_block {
+    float: none;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .footer_center .footer_email .right_block {
+    display: block;
+    float: none;
+    text-align: center;
+}
+.footer .footer_bottom .footer_address {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer .footer_bottom .footer_bottom_img {
+    text-align: center;
+}
+.product_details .section_1 .grid_right {
+    margin-top:50px;
+}
+.contact_us .grid_left {
+    margin-bottom:30px;
+}
+.account_form .grid_left {
+    padding: 20px;
+}
+.account_form .grid_left .form_logo {
+    margin-bottom: 10px;
+    width: 150px;
+}
+.account_form.login .grid_left {
+    padding: 20px;
+}
+.checkout .cus_col {
+    padding-left:5px;
+    padding-right:5px;
+}
+.checkout .cus_col.grid_left {
+    margin-bottom:40px;
+}
+}
+/* ------------------------ 
+    Max Width 720px 
+------------------------ */
+@media (max-width: 720px) {
+
+}
+/* ------------------------ 
+    Max Width 690px 
+------------------------ */
+@media (max-width: 690px) {
+}
+/* ------------------------ 
+    Max Width 667px 
+------------------------ */
+@media (max-width: 667px) {
+.banner #banner_slider .item .caption {
+    top: 15%;
+    width: 70%;
+    left: 15%;
+}
+.footer .footer_top .links {
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin-bottom: 30px;
+}
+.footer .footer_center .footer_email {
+    margin-top:0px;
+}
+}
+/* ------------------------ 
+    Max Width 640px 
+------------------------ */
+@media (max-width: 640px) {
+}
+/* ------------------------ 
+    Max Width 603px 
+------------------------ */
+@media (max-width: 603px) {
+
+}
+/* ------------------------ 
+    Max Width 600px 
+------------------------ */
+@media (max-width: 600px) {
+.banner #banner_slider .item .caption {
+    width: 90%;
+    left: 5%;
+}
+}
+/* ------------------------ 
+    Max Width 568px 
+------------------------ */
+@media (max-width: 568px) {
+
+}
+/* ------------------------ 
+    Max Width 533px 
+------------------------ */
+@media (max-width: 533px) {
+.cart_p .grid_left .table {
+    width: 100%;
+    display: block;
+    overflow-x: scroll;
+}
+}
+/* ------------------------ 
+    Max Width 480px 
+------------------------ */
+@media (max-width: 480px) {
+.heading_1 {
+    font-size: 26px;
+    line-height: 26px;
+}
+.btn {
+    letter-spacing:0px;
+    text-transform: capitalize;
+}
+.banner #banner_slider .item .caption h1 {
+    margin-bottom:5px;
+}
+.banner #banner_slider .owl-dots {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top:20px;
+}
+.add_banner .cus_col .grid .caption {
+    min-width:120px;
+    padding-right: 10px;
+}
+.add_banner .cus_col .grid .caption h3 {
+    line-height: 28px;
+    font-size: 22px;
+}
+.add_banner .cus_col {
+    padding: 0px 5px;
+}
+.iconic .cus_col {
+    padding:0px 5px;
+}
+.product .cus_col {
+    padding:0px 5px;
+}
+.footer .footer_center .footer_email .right_block .input_wrapper {
+    display: block;
+    margin-right: 0;
+}
+.footer .footer_center .footer_email .right_block .input_wrapper input {
+    margin-bottom:5px;
+}
+.footer .footer_center .footer_email .right_block .btn_3 {
+    width:100%;
+}
+.inner_banner h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.account_form .grid_right {
+    padding: 20px;
+}
+}
+/* ------------------------ 
+    Max Width 414px 
+------------------------ */
+@media (max-width: 414px) {
+.banner #banner_slider .item .caption p {
+    margin-bottom:5px;
+}
+.top_bar .grid_right .cart_box.view {
+    transform: scale(1, 1) translate(0px, 10px);
+}
+.checkout .cus_col .sub_4 {
+    flex:0 0 50%;
+    max-width:50%;
+}
+.checkout .cus_col .sub_7,
+.checkout .cus_col .sub_5 {
+    flex:0 0 100%;
+    max-width:100%;
+    margin-bottom:5px;
+}
+}
+/* ------------------------ 
+    Max Width 375px 
+------------------------ */
+@media (max-width: 375px) {
+.heading_1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.banner #banner_slider .item .caption {
+    top:5%;
+}
+.add_banner .cus_col {
+    padding: 0px 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.iconic .cus_col {
+    padding: 0px 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.product .cus_col {
+    padding: 0px 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.product.inner_product .cus_col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.inner_product_list .grid .details .left_sec a.title {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.xzoom-thumbs a img {
+    width: 50px;
+}
+}
+/* ------------------------ 
+    Max Width 320px 
+------------------------ */
+@media (max-width: 320px) {
+
+}
